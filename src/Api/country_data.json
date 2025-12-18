@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "country": "Japan",
+    "capital": "Tokyo",
+    "population": "125.1 million",
+    "interesting_fact": "Japan has more than 6,800 islands and is home to the world’s oldest company, founded in 578 AD."
+  },
+  {
+    "id": 2,
+    "country": "Canada",
+    "capital": "Ottawa",
+    "population": "38.5 million",
+    "interesting_fact": "Canada has the longest coastline in the world — over 202,000 kilometers long."
+  },
+  {
+  "country": "Pakistan",
+  "capital": "Islamabad",
+  "population": "241 million",
+  "interesting_fact": "Pakistan is home to the world’s highest paved international road — the Karakoram Highway — which connects Pakistan and China through the Himalayas."
+},
+  {
+    "id": 4,
+    "country": "Egypt",
+    "capital": "Cairo",
+    "population": "112 million",
+    "interesting_fact": "Ancient Egyptians invented one of the earliest forms of writing — hieroglyphics."
+  },
+  {
+    "id": 5,
+    "country": "France",
+    "capital": "Paris",
+    "population": "68 million",
+    "interesting_fact": "France is the most visited country in the world, welcoming over 90 million tourists each year."
+  },
+  {
+    "id": 6,
+    "country": "Australia",
+    "capital": "Canberra",
+    "population": "27 million",
+    "interesting_fact": "Australia is home to more kangaroos than humans."
+  },
+  {
+    "id": 7,
+    "country": "India",
+    "capital": "New Delhi",
+    "population": "1.43 billion",
+    "interesting_fact": "India has a floating post office located on Dal Lake in Srinagar."
+  },
+  {
+    "id": 8,
+    "country": "Norway",
+    "capital": "Oslo",
+    "population": "5.5 million",
+    "interesting_fact": "Norway introduced salmon sushi to Japan in the 1980s."
+  },
+  {
+    "id": 9,
+    "country": "South Africa",
+    "capital": "Pretoria / Cape Town / Bloemfontein",
+    "population": "62 million",
+    "interesting_fact": "South Africa is the only country in the world with three capital cities."
+  },
+  {
+    "id": 10,
+    "country": "Italy",
+    "capital": "Rome",
+    "population": "59 million",
+    "interesting_fact": "Italy has more UNESCO World Heritage Sites than any other country in the world."
+  },
+  {
+  "country": "Sri Lanka",
+  "capital": "Sri Jayawardenepura Kotte",
+  "population": "22 million",
+  "interesting_fact": "Sri Lanka is known as the ‘Teardrop of India’ due to its unique shape and proximity to the Indian subcontinent."
+},
+{
+  "country": "Bangladesh",
+  "capital": "Dhaka",
+  "population": "173 million",
+  "interesting_fact": "Bangladesh is home to the Sundarbans, the largest mangrove forest in the world and the habitat of the Royal Bengal Tiger."
+}
+
+]

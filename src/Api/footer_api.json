@@ -1,0 +1,18 @@
+[
+    {
+        "icon":"FaLocationDot",
+        "title":"Find us",
+        "description":"Pakistan,Islamanad"
+
+    },
+    {
+        "icon":"IoCall",
+        "title":"Call us",
+        "description":"0301-0310606"
+    },
+    {
+        "icon":"MdMarkEmailUnread",
+        "title":"Mail us",
+        "description":"kakagemalik@gamil.com"
+    }
+]

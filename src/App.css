@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  background-color: #000000;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Urbanist';
+}
+html{
+  font-size: 62.5%;
+}
+h1,h2,h3{
+  font-size: 3rem !important;
+}
+.container{
+  max-width: 130rem;
+  margin: auto;
+  padding: 0 1rem;
+}
+header{
+  background-color: #202020 !important;
+  height: 8rem;
+}
+.navbar-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.nav-link ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 2rem;
+}
+.nav-link ul li a{
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+li a:hover{
+  color: lightblue !important;
+}
+
+/* =================== Home ========================= */
+
+.her-grid{
+  display: grid;
+  grid-template-columns: 30% 50%;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.hero-img img{
+  width: 100%;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+button{
+  width: 15rem;
+  height: 3rem;
+  border-radius: 5rem;
+  background-color: transparent;
+  color: #ffff;
+  border: 0.2rem solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/* =========================== About ======================= */
+.country-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 7rem !important;
+  justify-content: center;
+
+
+}
+.country-head{
+  text-align: center;
+}
+.country_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 40rem;
+  height: 20rem;
+  box-shadow: rgba(238,238,255) 0px 1px 3px;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #1a171c, #080509);
+  line-height: 1.5;
+}
+.country_box span{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.country_box p{
+  font-size: 1rem;
+}
+.country-box-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+}
+
+/* =================== Contact =============== */
+.contact-grid{
+  display: flex;
+  flex-direction: column;
+justify-content: flex-end !important;
+align-items: center;
+  gap: 3rem;
+  padding:7rem;
+}
+.form {
+  width: 30%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; 
+  width: 100%;
+  align-items: center;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  background-color: transparent;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #3B3B3B;
+  color: white;
+}
+
+/* ====================== Footer ================ */
+footer{
+  background-color:#181818 !important;
+
+}
+.footer-grid{
+  padding: 2rem;
+}
+.footer-icon-head{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-icon{
+  font-size: 3rem;
+  color:#3457D5;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) !important;
+  grid-template-rows: 1;
+
+}
+.footerhead{
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 3rem;
+  padding: 3rem;
+}
+.card{
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 70%;
+  background: linear-gradient(to top, #1a171c, #080509);
+  box-shadow: rgba(238,238,255) 0px 1px 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 2.4;
+}
+.card-data span{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.card-data p{
+  font-size: 1rem;
+}
+.card-img img{
+  height:10rem;
+  width: 100%
+  
+}
+.card-btn{
+  width: 12rem;
+  height: 3rem;
+}
+.card-data h4{
+  font-size: 1.6rem;
+}
+
+/* ================== Country Conatainer =============== */
+.country-container{
+  padding: 3rem;
+}
+.inp-cou{
+ background-color: transparent;
+  padding: 0.7rem;
+  outline: none;
+  border: 1px solid #3B3B3B;
+  color: white;
+  width: 20%;
+  border-radius: 1rem;
+}
+/* ======================= single  */
+.single-conatiner{
+  background: linear-gradient(to top, #1a171c, #080509);
+  
+}
+.singel-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.img-con img{
+  width: 50%;
+}
+.img-content{
+  line-height: 3;
+}
+.img-content span{
+  font-weight: bolder;
+}
+.countery-filter{
+  display: flex;
+  justify-content: space-between;
+}
+.selec{
+  background-color: transparent;
+  color: white;
+  border-radius: 1rem;
+}
+option{
+  color: black;
+}

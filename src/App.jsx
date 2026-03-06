@@ -9,7 +9,7 @@ import { Singel } from './pages/singel';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/',  
     element: <Layouts/>,
     errorElement:<Error/>,
     children:[

@@ -10,7 +10,7 @@ export const Footer = () => {
   }
   return (
     <>
-    <footer>
+    <footer>  
       <div className="container">
         <div className="footer-grid">
             {
